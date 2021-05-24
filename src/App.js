@@ -16,11 +16,13 @@ const useStyles = makeStyles((theme) => ({
     backgroundAttachment: "attach",
     minHeight: "100vh",
     minWidth: "100vw",
+    paddingBottom: 20,
   },
   nav: {
     maxWidth: "1200px",
     margin: "0px auto",
     paddingTop: 10,
+    paddingLeft: 5,
     marginBottom: 50,
     [theme.breakpoints.up("md")]: {
       marginBottom: 0,
@@ -32,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "white",
     margin: "0px auto",
     borderRadius: 15,
-    marginBottom: 10,
     padding: 30,
   },
   videoWraper: {
