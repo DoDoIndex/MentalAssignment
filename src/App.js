@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "white",
     margin: "0px auto",
     borderRadius: 15,
+    marginBottom: 10,
     padding: 30,
   },
   videoWraper: {
