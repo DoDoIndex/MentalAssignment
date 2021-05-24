@@ -16,14 +16,13 @@ const useStyles = makeStyles((theme) => ({
     backgroundAttachment: "attach",
     minHeight: "100vh",
     minWidth: "100vw",
-    paddingBottom: 20,
   },
   nav: {
     maxWidth: "1200px",
-    margin: "0px auto",
+    margin: "0px auto 50px auto",
     paddingTop: 10,
     paddingLeft: 5,
-    marginBottom: 50,
+    paddingRight: 5,
     [theme.breakpoints.up("md")]: {
       marginBottom: 0,
     },
@@ -104,6 +103,9 @@ const useStyles = makeStyles((theme) => ({
       boxShadow: "none",
     },
   },
+  spacingBottom: {
+    height: 20,
+  },
 }));
 
 function App() {
@@ -157,6 +159,7 @@ function App() {
           </Grid>
         </Grid>
       </div>
+      <div class={classes.spacingBottom}></div>
     </div>
   );
 }
