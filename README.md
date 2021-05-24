@@ -1,3 +1,8 @@
+# Twitch Change
+
+To deploy on a certain domain, please change line 117 in App.js
+from localhost to yourdomainname.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

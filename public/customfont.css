@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SFCompact';
+    src: local('SFCompact'), url(SFCompact.woff) format('woff');
+}
+* {
+    font-family: 'SFCompact', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
