@@ -1,106 +1,106 @@
 import BackgroundImg from "./media/HoneycombBackground.png";
 import LogoImg from "./media/Logo.png";
 
-import './App.css';
+import "./App.css";
 import Typography from "@material-ui/core/Typography";
-import {makeStyles} from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
-  background:{
-    backgroundImage: "url(" + BackgroundImg + "), linear-gradient(#6862f3,#8d4bfc)",
-    backgroundPosition:"right",
-    backgroundRepeat:"repeat-x",
-    backgroundAttachment:"attach",
-    minHeight:"100vh",
-    minWidth:"100vw"
+  background: {
+    backgroundImage:
+      "url(" + BackgroundImg + "), linear-gradient(#6862f3,#8d4bfc)",
+    backgroundPosition: "right",
+    backgroundRepeat: "repeat-x",
+    backgroundAttachment: "attach",
+    minHeight: "100vh",
+    minWidth: "100vw",
   },
-  nav:{
-    maxWidth:"1200px",
-    margin:"0px auto",
-    paddingTop:10,
-    marginBottom:50,
-    [theme.breakpoints.up('md')]: {
-      marginBottom:0,
+  nav: {
+    maxWidth: "1200px",
+    margin: "0px auto",
+    paddingTop: 10,
+    marginBottom: 50,
+    [theme.breakpoints.up("md")]: {
+      marginBottom: 0,
     },
   },
-  modal:{
-    width:"500px",
-    maxWidth:"80%",
-    backgroundColor:"white",
-    margin:"0px auto",
-    borderRadius:15,
-    padding:30
+  modal: {
+    width: "500px",
+    maxWidth: "80%",
+    backgroundColor: "white",
+    margin: "0px auto",
+    borderRadius: 15,
+    padding: 30,
   },
-  videoWraper:{
+  videoWraper: {
     overflow: "hidden",
     paddingBottom: "56.25%",
     position: "relative",
-    marginBottom:50,
+    marginBottom: 50,
     height: 0,
-    marginTop:-60,
+    marginTop: -60,
 
-    webkitBoxShadow: "0px 20px 25px -10px rgba(0,0,0,0.4)", 
+    webkitBoxShadow: "0px 20px 25px -10px rgba(0,0,0,0.4)",
     boxShadow: "0px 20px 25px -10px rgba(0,0,0,0.4)",
   },
-  videoIframe:{
+  videoIframe: {
     left: 0,
     top: 0,
     height: "100%",
     width: "100%",
     position: "absolute",
   },
-  question:{
-    color:"#bbbfc9",
-    fontWeight:"bold",
-    textAlign:"center",
-    fontSize:14,
+  question: {
+    color: "#bbbfc9",
+    fontWeight: "bold",
+    textAlign: "center",
+    fontSize: 14,
   },
-  titleContainer:{
-    maxWidth:370,
-    margin:"0px auto"
+  titleContainer: {
+    maxWidth: 370,
+    margin: "0px auto",
   },
-  title:{
-    textAlign:"center",
-    fontSize:30,
-    marginBottom:40,
+  title: {
+    textAlign: "center",
+    fontSize: 30,
+    marginBottom: 40,
   },
-  button:{
-    borderRadius:50,
-    width:"100%",
+  button: {
+    borderRadius: 50,
+    width: "100%",
     justifyContent: "flex-start",
-    fontSize:12,
-    padding:"10px 15px",
-    border:"2px solid #e3ecf7",
-    textAlign:"left",
-    color:"#778093",
-    backgroundColor:"white",
-    fontWeight:"bold",
-    transition: theme.transitions.create(
-      ['margin-top', 'margin-bottom'],
-      { duration: theme.transitions.duration.shortest }
-    ),
+    fontSize: 12,
+    padding: "10px 15px",
+    border: "2px solid #e3ecf7",
+    textAlign: "left",
+    color: "#778093",
+    backgroundColor: "white",
+    fontWeight: "bold",
+    transition: theme.transitions.create(["margin-top", "margin-bottom"], {
+      duration: theme.transitions.duration.shortest,
+    }),
 
     "&:hover": {
-      backgroundColor:"white",
-      color:"black",
+      backgroundColor: "white",
+      color: "black",
       boxShadow: "0 4px 6px -4px #e9f0f9",
-      marginTop:-2,
-      cursor:"pointer"
+      marginTop: -2,
+      cursor: "pointer",
     },
     "&:focus": {
-      color:"black",
+      color: "black",
       background: "#e3ecf7",
-      marginTop:0,
-      boxShadow:"none"
+      marginTop: 0,
+      boxShadow: "none",
     },
     "&:active": {
-      color:"black",
+      color: "black",
       background: "#e3ecf7",
-      marginTop:0,
-      boxShadow:"none"
-    }
+      marginTop: 0,
+      boxShadow: "none",
+    },
   },
 }));
 
@@ -114,20 +114,21 @@ function App() {
       </div>
       <div className={classes.modal}>
         <div class={classes.videoWraper}>
-          <iframe src="https://clips.twitch.tv/embed?clip=FantasticFreezingCrabBudStar&parent=localhost" 
-              class={classes.videoIframe}
-              width="853"
-              height="480"
-              frameBorder="0"
-              allowfullscreen></iframe>
+          <iframe
+            src="https://clips.twitch.tv/embed?clip=FantasticFreezingCrabBudStar&parent=localhost"
+            class={classes.videoIframe}
+            width="853"
+            height="480"
+            frameBorder="0"
+            allowfullscreen
+          ></iframe>
         </div>
-
 
         <div class={classes.question}>Question 1</div>
 
         <div class={classes.titleContainer}>
           <h1 class={classes.title}>
-            What is the symbor for the EOS Blockchain?
+            What is the symbol for the EOS Blockchain?
           </h1>
         </div>
 
