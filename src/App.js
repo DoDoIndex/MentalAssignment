@@ -86,7 +86,8 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": {
       backgroundColor: "white",
       color: "black",
-      boxShadow: "0 4px 6px -4px #e9f0f9",
+      boxShadow: "0px 10px 25px -15px #A8C4E6",
+      webkitBoxShadow: "0px 10px 25px -15px #A8C4E6",
       marginTop: -2,
       cursor: "pointer",
     },
