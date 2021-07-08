@@ -170,12 +170,12 @@ function App() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <button variant="outlined" className={classes.button}>
-              Bleh
+              New Text
             </button>
           </Grid>
           <Grid item xs={12} sm={6}>
             <button variant="outlined" className={classes.button}>
-              Blah
+              New Text 2
             </button>
           </Grid>
         </Grid>
