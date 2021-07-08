@@ -168,6 +168,16 @@ function App() {
               New Button 2
             </button>
           </Grid>
+          <Grid item xs={12} sm={6}>
+            <button variant="outlined" className={classes.button}>
+              New Button 3
+            </button>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <button variant="outlined" className={classes.button}>
+              New Button 4
+            </button>
+          </Grid>
         </Grid>
       </div>
       <div class={classes.spacingBottom}></div>
