@@ -158,6 +158,16 @@ function App() {
               Chestahedron
             </button>
           </Grid>
+          <Grid item xs={12} sm={6}>
+            <button variant="outlined" className={classes.button}>
+              New Button 1
+            </button>
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <button variant="outlined" className={classes.button}>
+              New Button 2
+            </button>
+          </Grid>
         </Grid>
       </div>
       <div class={classes.spacingBottom}></div>
