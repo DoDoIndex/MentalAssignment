@@ -175,7 +175,7 @@ function App() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <button variant="outlined" className={classes.button}>
-              New Text 2
+              New Button #44
             </button>
           </Grid>
         </Grid>
